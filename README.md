@@ -6,6 +6,6 @@ This project demonstrates the development of a FastAPI application, which is des
 
 ***Video Processing:*** Handles video data and performs video-related operations using utils/video_utils.py.
 
-***API Endpoints:** Exposes RESTful APIs for interacting with the backend, developed using FastAPI.
+***API Endpoints:*** Exposes RESTful APIs for interacting with the backend, developed using FastAPI.
 
 ***Testing:*** Includes test scripts (e.g., test_vector.py) for unit tests and ensuring the functionality of the application.
