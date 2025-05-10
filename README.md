@@ -1,32 +1,52 @@
-# FastAPI Project
-This project demonstrates the development of a FastAPI application, which is designed to handle various backend functionalities such as feature extraction, video processing, and data handling. The project aims to showcase how FastAPI can be used to build efficient and modern web applications with Python.
+FastAPI Project
+📖 Overview
+This project demonstrates the use of FastAPI for building a web application with functionalities like video processing and feature extraction. The project showcases how to leverage FastAPI for creating a robust, high-performance API, with a focus on handling video data.
 
-## ⚙️ Features
-***Feature Extraction:*** This module processes video data and extracts relevant features using utils/feature_utils.py.
+💻 Features
+FastAPI Framework for building the web application
 
-***Video Processing:*** Handles video data and performs video-related operations using utils/video_utils.py.
+Video processing for handling and analyzing video files
 
-***API Endpoints:*** Exposes RESTful APIs for interacting with the backend, developed using FastAPI.
+Feature extraction for analyzing video content
 
-***Testing:*** Includes test scripts (e.g., test_vector.py) for unit tests and ensuring the functionality of the application.
+API endpoints for interacting with the video data
 
-## 📦 Installation
+Efficient server with real-time updates using uvicorn
 
-**Clone the repository:**
-git clone https://github.com/bit-milind42/FastAPI-Project.git
+🛠️ Technologies Used
+FastAPI: A modern web framework for building APIs
+
+Uvicorn: ASGI server for serving FastAPI applications
+
+Python: Programming language used for building the application
+
+OpenCV: Library for video processing
+
+Pydantic: Data validation and settings management using Python type annotations
+
+📦 Installation
+Clone the repository:
+
+bash
+git clone <repo link>
 cd FastAPI-Project
+Set up a virtual environment:
 
-
-**Set up a virtual environment:**
+bash
 python -m venv venv
 source venv/bin/activate  # For Linux/macOS
 venv\Scripts\activate     # For Windows
+Install the required dependencies:
 
-**Install the required dependencies:**
+bash
 pip install -r requirements.txt
+🚀 Running the Application
+To start the FastAPI server:
 
-**🚀 Running the Application**
-*To start the FastAPI server:*
+bash
 uvicorn main:app --reload
-**or**
+Alternatively:
+
+bash
 python -m uvicorn main:app --reload
+Related
